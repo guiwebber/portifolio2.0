@@ -1,19 +1,45 @@
-.logoReact:hover {
-  cursor: pointer;
-}
 .boxBanner {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
+  width: 85%;
+  margin: auto;
+}
+.textBlue {
+  color: #34d3ffd3;
+  text-shadow: 0 0 10px #61dafbaa;
 }
 .textosBanner {
   color: white;
 }
+.linkAndGit {
+  display: flex;
+  justify-content: center;
+}
 .logoReact {
   width: 500px;
   filter: drop-shadow(0 0 2em #61dafbaa);
-  animation: spinsLogo 10s linear infinite;
+  animation: spinsLogo 20s linear infinite;
+}
+svg {
+  width: 30px;
+  margin: 10px 0;
+  fill: #fff;
+  transition: 0.4s;
+}
+svg:hover {
+  fill: #34d3ffd3;
+  filter: drop-shadow(1px 1px 12px #34d3ffd3);
+}
+
+.linkAndGit div {
+  background-color: rgb(11, 35, 51);
+  margin: 10px 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 @keyframes spinsLogo {
@@ -22,5 +48,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .boxBanner {
+    width: 82%;
+  }
+  .logoReact {
+    width: 400px;
+  }
+}
+@media (max-width: 848px) {
+  .logoReact {
+    width: 300px;
+  }
+  .boxBanner {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }

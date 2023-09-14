@@ -8,10 +8,9 @@
 }
 
 body {
-  background-color: #080b14;
+  background-color: #100a22;
 }
 
 .maxWidth {
-  max-width: 1024px;
-  margin: auto;
+  max-width: 1111px;
 }
