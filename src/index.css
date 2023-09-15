@@ -8,9 +8,32 @@
 }
 
 body {
-  background-color: #100a22;
+  background-color: rgb(10, 3, 32);
+
 }
 
 .maxWidth {
   max-width: 1111px;
+}
+.svgL {
+  width: 40px;
+}
+.svgR {
+  width: 40px;
+  transform: rotate(180deg);
+}
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 10px rgb(0, 255, 242);
+}
+
+.section {
+  margin: auto;
+  padding: 50px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
