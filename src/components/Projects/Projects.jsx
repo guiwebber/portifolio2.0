@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import cc from "../../assets/img/cc.png";
 import svggg from "../../assets/img/svggg.svg";
 const Projects = () => {
   return (
@@ -10,12 +11,22 @@ const Projects = () => {
           Meus projetos
           <img className="svgR" src={svggg} alt="" />
         </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
-          beatae velit praesentium est illo consectetur ratione rerum minus, a
-          quam exercitationem eaque placeat optio minima adipisci quibusdam
-          veritatis ducimus temporibus?
-        </p>
+      </div>
+      <div className="containerProjects">
+        <button>ᐊ</button>
+        <div className="projeto">
+          <h1>Cartão de crédito interativo</h1>
+          <img src={cc} alt="" />
+          <p className="linguagens">
+            <span className="empashis">Linguagens utilizadas:</span> HTML, CSS,
+            JavaScript
+          </p>
+          <p>
+            Alguma descrição do projeto aqui sobre o projeto e lorem ipsum ablor
+            lo da lorem varut
+          </p>
+        </div>
+        <button>ᐅ</button>
       </div>
     </div>
   );

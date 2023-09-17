@@ -1,3 +1,39 @@
 .skills {
-    background-color: #100a22;
+    background-color: #271b49;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.skillsDiv {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagensSkills {
+    display: flex;
+    width: 410px;
+    flex-wrap: wrap;
+}
+
+.imagensSkills div {
+    width: 125px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(10, 3, 32);
+    filter: grayscale(100%);
+}
+.imagensSkills div:hover {
+    box-shadow: inset 1px 1px 15px aqua;
+    filter: grayscale(0%);
+
+}
+.imagensSkills div img {
+    width: 100px;
 }
