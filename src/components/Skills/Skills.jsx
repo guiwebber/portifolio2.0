@@ -1,5 +1,4 @@
 import React from "react";
-import svggg from "../../assets/img/svggg.svg";
 import hardskill from "../../assets/img/shine.svg";
 import html from "../../assets/img/skills/html.svg";
 import css from "../../assets/img/skills/css.svg";
@@ -12,36 +11,34 @@ const Skills = () => {
   return (
     <div className="skills section">
       <div className=" maxWidth">
-        <h1 className="titleSection">
-          <img className="svgL" src={svggg} alt="" />
-          Habilidades
-          <img className="svgR" src={svggg} alt="" />
-        </h1>
+        <div className="titleSection">
+          <h1>Habilidades</h1>
+        </div>
       </div>
       <div className="skillsDiv">
         <div>
           <img src={hardskill} alt="" />
-          <p>*Passe o mouse por cima das skills para ver algo*</p>
+          <p>*Clique nas skills para ler mais sobre elas*</p>
         </div>
         <div className="imagensSkills">
-          <div>
+          <button>
             <img src={html} alt="" />
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={css} alt="" />
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={js} alt="" />
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={git} alt="" />
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={github} alt="" />
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={react} alt="" />
-          </div>
+          </button>
         </div>
       </div>
     </div>

@@ -1,15 +1,12 @@
-import React from 'react'
-import './Certifications.css'
-import svggg from "../../assets/img/svggg.svg";
+import React from "react";
+import "./Certifications.css";
 const Certifications = () => {
   return (
-    <div className='certifications section'>
-       <div className=" maxWidth">
-        <h1 className="titleSection">
-          <img className="svgL" src={svggg} alt="" />
-          Certificações
-          <img className="svgR" src={svggg} alt="" />
-        </h1>
+    <div className="certifications section">
+      <div className=" maxWidth">
+        <div className="titleSection">
+          <h1>Certificações</h1>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           soluta molestias ab voluptatem nulla quaerat eligendi dicta et ad
@@ -17,7 +14,7 @@ const Certifications = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Certifications
+export default Certifications;

@@ -1,16 +1,13 @@
 import React from "react";
 import "./Projects.css";
 import cc from "../../assets/img/cc.png";
-import svggg from "../../assets/img/svggg.svg";
 const Projects = () => {
   return (
     <div className="projects section">
       <div className="maxWidth projectsAlign">
-        <h1 className="titleSection">
-          <img className="svgL" src={svggg} alt="" />
-          Meus projetos
-          <img className="svgR" src={svggg} alt="" />
-        </h1>
+        <div className="titleSection">
+          <h1>Projetos</h1>
+        </div>
       </div>
       <div className="containerProjects">
         <button>ᐊ</button>
